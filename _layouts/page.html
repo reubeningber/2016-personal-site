@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Reuben Ingber</title>
+	<!-- <link href='https://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'> -->
+	<link href='https://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" >
+
+	<link rel="stylesheet" href="/main.css">
+
+
+</head>
+<body>
+	
+{% include header.html %}
+
+<div class="page-content-container">
+	<div class="hero-unit {{ page.title | downcase }}">
+		<div class="hero-unit__content-wrapper">
+			<h1 class="hero-unit__title">{{ page['Page Heading'] }}</h1>
+		</div>
+	</div>
+
+{{page}}
+	<div class="container">
+    	<div class="row">
+    		<div class="col-md-4 col-md-offset-2">
+    			<img class="img-responsive" src="http://riportfolio.siteleaf.net/assets/nielsen-1.png">
+    		</div>
+    		<div class="col-md-4">Right</div>
+		</div><!-- /.row -->
+		        
+		        <nav>
+		            <ul class="pager">
+		              <li><a href="#">Previous</a></li>
+		              <li><a href="#">Next</a></li>
+		            </ul>
+		        </nav>
+        	</div><!-- /.blog-main -->
+    </div><!-- /.container -->
+</div><!-- /.page-content-container -->
+
+{% include page-modal.html %}
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<!-- <script src="assets/js/main.js"></script> -->
+</body>
+</html>

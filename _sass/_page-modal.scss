@@ -1,0 +1,29 @@
+.page-modal {
+	display: none;
+	background: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 80vw;
+}
+
+.page-modal.show-modal {
+	display: block;
+}
+
+.page-model__content-wrapper {
+	padding: 50px;	
+}
+
+.page-modal__title {
+	font-size: 40px;
+	text-align: center;
+	padding: 0 0 10px 0;
+	margin: 0 0 10px 0;
+	border-bottom: 1px solid #3C3530;
+}
+
+.page-modal__close {
+	float: right;
+}
