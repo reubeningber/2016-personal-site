@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Reuben Ingber</title>
+	<!-- <link href='https://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'> -->
+	<link href='https://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="assets/css/header.css">
+	<link rel="stylesheet" href="assets/css/triathlon.css">
+	<link rel="stylesheet" href="assets/css/homepage.css">
+	<link rel="stylesheet" href="assets/css/modal.css">
+
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+      			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+      			</button>
+      			<a class="navbar-brand" href="#">
+					<i class="site__icon header work"></i>
+	      		</a>
+    		</div>
+
+    		<!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Work <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Triathlon</a></li>
+        <li><a href="#">Podcast</a></li>
+        <li><a href="#" data-modal>About</a></li>
+        <li><a href="#" data-modal>Now</a></li>
+        <li><a href="#" data-modal>Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+	    </div>
+	  </div>
+	</nav>
+
+<div class="page-content-container">
+	<div class="hero-unit work">
+		<div class="hero-unit__content-wrapper">
+			<h1 class="hero-unit__title">Front-End Web Developer</h1>
+		</div>
+	</div>
+
+	<div class="container">
+    	<div class="row">
+    		<div class="col-md-4 col-md-offset-2">
+    			<img class="img-responsive" src="http://riportfolio.siteleaf.net/assets/nielsen-1.png">
+    		</div>
+    		<div class="col-md-4">Right</div>
+		</div><!-- /.row -->
+		        
+		        <nav>
+		            <ul class="pager">
+		              <li><a href="#">Previous</a></li>
+		              <li><a href="#">Next</a></li>
+		            </ul>
+		        </nav>
+        	</div><!-- /.blog-main -->
+    </div><!-- /.container -->
+</div><!-- /.page-content-container -->
+
+	{% includes/page-modal %}
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
