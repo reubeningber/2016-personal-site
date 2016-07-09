@@ -2,9 +2,6 @@
 title: Reuben Ingber
 timezone: UTC
 collections:
-  triathlon:
-    title: Posts
-    output: true
   posts:
     title: Posts
     output: true
