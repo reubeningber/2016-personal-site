@@ -29,10 +29,15 @@
 
 		{% if pageName == 'work' %}
     		{% include work.html %}
+	    	{% include pager.html %}
+    	{% else if pageName == 'triathlon' %}
+    		<div class="row">
+    			{% include triathlon.html %}
+    			{% include sidebar.html %}
+    		</div>
     	{% endif %}
 
 
-    	{% include pager.html %}
     </div><!-- /.container -->
 </div><!-- /.page-content-container -->
 
