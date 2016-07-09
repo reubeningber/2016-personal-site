@@ -9,7 +9,7 @@ collections:
     title: Projects
     output: true
   triathlon:
-    title: Triathlon Blog Post
+    title: Triathlon Blog Posts
     output: true
   uploads:
     title: Uploads
