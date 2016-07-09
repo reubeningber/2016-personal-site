@@ -1,7 +1,7 @@
 ---
 title: Welcome!
 date: 2016-07-09 13:29:00 Z
-layout: default
+layout: posts
 ---
 
 Hi, if you can't tell from the URL, I'm Reuben Ingber by day I am a web developer at [Business Insider](http://businessinsider.com) and by night I try to challenge myself. In 2014, I successfully completed the New York City Marathon in 5:15:59. Since then I haven't done much in terms of physical fitness. I tried to keep running, but it got boring and I really started to hate it. I tried the gym and again I just wasn't enjoying it. About 2 months ago, I started to get this crazy idea of trying a triathlon. 
