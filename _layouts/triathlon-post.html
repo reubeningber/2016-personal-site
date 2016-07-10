@@ -17,17 +17,23 @@
 {% include header.html %}
 
 <div class="page-content-container">
-	<div class="hero-unit {{ page.title | downcase }}">
-		<div class="hero-unit__content-wrapper">
-			<h1 class="hero-unit__title">{{ page['Page Heading'] }}</h1>
-		</div>
-	</div>
-
 	<div class="container">
+		<div class="row">
+			<div class="col-sm-8 blog-main">
+				<div class="blog-post">
+				    <h2 class="blog-post-title"><a href="{{ page.url }}">{{ page.title }}</a></h2>
 
-		{% include post-body.html %}
+				    <p class="blog-post-meta">{{ page.date | date: "%B %-d, %Y" }}</p>
 
 
+
+				    {{ content }}
+				    
+				</div><!-- /.blog-post -->
+			</div><!-- /.blog-main -->
+
+			{% include sidebar.html %}
+		</div>
     </div><!-- /.container -->
 </div><!-- /.page-content-container -->
 
