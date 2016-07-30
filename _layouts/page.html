@@ -14,14 +14,8 @@
 </head>
 <body>
 	
-{% include header.html %}
-
-<div class="page-content-container">
-	<div class="hero-unit {{ page.title | downcase }}">
-		<div class="hero-unit__content-wrapper">
-			<h1 class="hero-unit__title">{{ page['Page Heading'] }}</h1>
-		</div>
-	</div>
+{% include header.html parent=pageName%}
+{% include header-image.html parent=pageName headline='Aspiring Triathlete' %}
 
 	<div class="container">
 		{% if pageName == 'work' %}
