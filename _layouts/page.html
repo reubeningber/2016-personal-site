@@ -29,8 +29,9 @@
 	    	{% include pager.html %}
     	{% else if pageName == 'triathlon' %}
     		<div class="row">
-    			<!-- {% include triathlon.html %} -->
-    			<!-- {% include sidebar.html %} -->
+    			{% include triathlon.html %}
+    			{% include sidebar.html %}
+    			{% include pager.html %}
     		</div>
     	{% endif %}
     </div><!-- /.container -->
