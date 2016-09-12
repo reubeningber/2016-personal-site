@@ -8,6 +8,9 @@ collections:
   work:
     title: Projects
     output: true
+  race-calendar:
+    title: Race Calendar
+    output: true
   triathlon:
     title: Triathlon Blog Posts
     output: true
