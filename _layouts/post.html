@@ -1,0 +1,21 @@
+
+{% include header.html parent='triathlon' %}
+{% include header-image.html parent='triathlon' headline='Aspiring Triathlete' %}
+<div class="page-content-container">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8 blog-main">
+				<article class="blog-post">
+				    
+					<h2 class="blog-post-title">{{page.title}}</h2>
+
+					<p class="blog-post-meta">{{ page.date | date: "%B %-d, %Y" }}</p>
+
+					{{ content }}
+				</article><!-- /.blog-post -->
+			</div>
+			{% include sidebar.html %}	
+		</div>
+	</div><!-- /.container -->
+</div><!-- /.page-content-container -->
+
